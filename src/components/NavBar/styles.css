@@ -1,0 +1,14 @@
+#nav {
+    background-color: #121212;
+}
+
+#navegar a {
+    color: #A8A5A4;
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+#navegar a:hover {
+    color: white;
+}
