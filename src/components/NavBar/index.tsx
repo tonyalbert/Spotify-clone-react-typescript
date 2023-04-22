@@ -1,8 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import { BiLeftArrowCircle, BiRightArrowCircle } from 'react-icons/bi';
 import './styles.css';
-import { Link } from 'react-router-dom';
+import Arrow from '../Arrow/index'
 
 function NavBar() {
   return (
@@ -10,12 +9,8 @@ function NavBar() {
       <Navbar id="nav">
         <Container>
           <Navbar.Brand href="#home">
-            <div id="navegar">
-                <a href="/"><BiLeftArrowCircle /></a>
-                <a href="/"><BiRightArrowCircle /></a>
-            </div>
+            <Arrow />
           </Navbar.Brand>
-
         </Container>
       </Navbar>
     </>

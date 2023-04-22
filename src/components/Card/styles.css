@@ -1,9 +1,11 @@
 #simpleCard {
     display: inline-block;
     background-color: #181818;
-    padding: 20px;
-    border-radius: 10px;
+    width: 200px;
     height: 283px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #simpleCard:hover {
@@ -21,10 +23,12 @@
     font-size: 17px;
     font-weight: 700;
     margin-top: 18px;
+    text-align: left;
 }
 
 #simpleCard p {
     color: #A8A5A4;
     font-size: 14px;
     margin-top: 5px;
+    text-align: left;
 }

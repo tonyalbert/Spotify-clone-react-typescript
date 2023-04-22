@@ -3,6 +3,7 @@ import LongCard from '../../components/LongCard';
 import Card from '../../components/Card';
 import Saudacao from '../../utils/Saudacao/Saudacao';
 import { Link } from 'react-router-dom';
+import NavBar from '../../components/NavBar';
 
 const Home = () => {
 
@@ -10,6 +11,7 @@ const Home = () => {
       
     return (
         <div className='container' id='homeContainer'>
+            <NavBar />
             <h1 id='title'>{saudacaoAtual}</h1>
             <div className="row">
                 <div className="col">
