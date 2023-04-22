@@ -1,6 +1,7 @@
 import './styles.css';
 import { AiOutlineSearch, AiFillHome } from 'react-icons/ai';
 import { IoLibrarySharp } from 'react-icons/io5';
+import { Link } from 'react-router-dom'
 
 function Aside()  {
   return (
@@ -8,17 +9,24 @@ function Aside()  {
         <img id='logo' src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="spotify" />
       <div id='topLinks'>
 
-        <p className='d-flex align-items-center mb-2'>
+        <Link to={'/'} style={{ textDecoration: 'none', color: 'inherit' }}>
+          <p className='d-flex align-items-center mb-2'>
           <AiFillHome style={{ marginRight: '15px' }}/>
           Home</p>
-        
-        <p className='d-flex align-items-center mb-2'>
-        <AiOutlineSearch style={{ marginRight: '15px' }}/>
-        Search</p>
+        </Link>
+          
+        <Link to={'/UnderConstructionPage'} style={{ textDecoration: 'none', color: 'inherit' }}>
+          <p className='d-flex align-items-center mb-2'>
+          <AiOutlineSearch style={{ marginRight: '15px' }}/>
+          Search</p>
+        </Link>
 
-        <p className='d-flex align-items-center mb-2'>
+        <Link to={'/UnderConstructionPage'} style={{ textDecoration: 'none', color: 'inherit' }}>
+          <p className='d-flex align-items-center mb-2'>
           <IoLibrarySharp style={{ marginRight: '15px' }}/>
           Your Library</p>
+        </Link>
+
       </div>
 
       <hr />

@@ -3,7 +3,6 @@ import LongCard from '../../components/LongCard';
 import Card from '../../components/Card';
 import Saudacao from '../../utils/Saudacao/Saudacao';
 import { Link } from 'react-router-dom';
-import NavBar from '../../components/NavBar';
 
 const Home = () => {
 
@@ -11,7 +10,6 @@ const Home = () => {
       
     return (
         <div className='container' id='homeContainer'>
-            <NavBar />
             <h1 id='title'>{saudacaoAtual}</h1>
             <div className="row">
                 <div className="col">
@@ -65,7 +63,7 @@ const Home = () => {
             <div className="d-flex align-items-center">
 
             <h1 className="flex-grow-1" id='programas'>Seus programas</h1>
-            <a id='show' className="ml-auto mt-4">Mostrar tudo</a>
+            <p id='show' className="ml-auto mt-4">Mostrar tudo</p>
             </div>
             </Link>
 
@@ -125,7 +123,7 @@ const Home = () => {
             <div className="d-flex align-items-center">
 
             <h1 className="flex-grow-1" id='programas'>Tyler, The Creator</h1>
-            <a id='show' className="ml-auto mt-4">Mostrar tudo</a>
+            <p id='show' className="ml-auto mt-4">Mostrar tudo</p>
             </div>
             </Link>
 
@@ -134,7 +132,7 @@ const Home = () => {
             <div className="col">
                     <Card
                     image={'https://musicainstantanea.com.br/wp-content/uploads/2023/03/Tyler-The-Creator-%E2%80%93-Call-Me-If-You-Get-Lost-The-Estate-Sale-compressed.jpg'}
-                    title={"Call Me If You Get Lost: The Estate..."}
+                    title={"Call Me If You Get Lost: The Estate Sale"}
                     name={"Tyler, the Creator"}
                     type={"album"}
                     />

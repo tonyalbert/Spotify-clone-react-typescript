@@ -1,9 +1,7 @@
-import NavBar from "../../components/NavBar";
 
 const UnderConstructionPage = () => {
     return (
         <>
-        <NavBar />
             <div className="container">
                 
                 <h1 className="text-white">Em construção</h1>
